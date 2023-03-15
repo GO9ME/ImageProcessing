@@ -1,4 +1,7 @@
 import cv2
+from foo import cannyEdge
+from gray import grayScale
+
 
 src = None
 dst1, dst2, dst3 = None,None,None 
